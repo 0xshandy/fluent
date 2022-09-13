@@ -7,5 +7,5 @@ if __name__ == '__main__':
     fmt = '{:15} | {:^15.4f} | {:^9.4f}'
     for city, *_, (lat, long) in metro_areas:
         print(fmt.format(city, lat, long))
-
+    print('done!')
     
